@@ -1,1 +1,2 @@
-# DirectWind2.0
+# DirectWind
+Direct Wind
