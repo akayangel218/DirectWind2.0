@@ -3,20 +3,12 @@ from selenium import webdriver
 from BeautifulSoup import BeautifulSoup
 import pandas as pd
 
+
 # Path to the chromedriver
-
-# What we are getting from the URL?
-sp = [] # Starting point
-dp = [] # Destinatnion poinnt
-date = [] # Date of travel
-passengers = [] # number of passengers
-
-# Windsor Buses
-
-# Uber
+driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 
 # VIA Rail
+d = [] # Date
+p = [] # Price
+driver.get(<a href="https://reservia.viarail.ca/search/">"https://reservia.viarail.ca/search/tripresult.aspx?t=D&from=bc")
 
-# Airport
-
-# Greyhound
